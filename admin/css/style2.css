@@ -1,0 +1,62 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#cont {
+    width: 90%;
+    margin: 50px auto;
+}
+#col2l2, #col1l1 {
+    min-height: 400px;
+    margin: auto;
+    vertical-align: top;
+}
+#grand {
+    margin-top: 12px;
+}
+#scroll {
+    height: 500px;
+    overflow: auto;
+}
+.img-av {
+    display: inline-block;
+    height: 110px;
+    cursor: pointer;
+}
+.icon_div {
+    display: inline-block;
+    cursor: pointer;
+}
+.H:hover, .H-focus {
+    background: rgba(52,152,219,1.0);
+    border-radius: 50px;
+}
+.icon_focus, .icon_div:hover {
+    border-bottom: 1px solid black;
+}
+#avatar_select {
+    overflow: auto;
+    min-height: 300px;
+    max-height: 500px;
+}
+.F:hover, .F-focus{
+    background: #FFB6C1;
+    border-radius: 50px;
+}
+.err-tchat {
+    background: red;
+    text-align: center;
+}
+.msg {
+    width: 100%;
+    font-weight: bold;
+    min-height: 20px;
+    background: #D0E9F5;
+    margin-bottom: 5px;
+}
+.msg-content {
+    margin-left: 20px;
+    display: inline-block;
+}
+.lnk {
+    color: #007f5e; cursor: pointer;
+}

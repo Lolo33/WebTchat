@@ -1,0 +1,358 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#conteneur-index {
+    width: 80%;
+    margin: 50px auto;
+}
+#conteneur-index a:hover {
+    text-decoration: none;
+}
+.form_insc {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+}
+.titre {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80%;
+    margin: auto;
+    height: 75px;
+    padding: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid dimgray;
+    border-radius: 5px;
+    text-align: center;
+}
+.ki {
+    width: 80%;
+    margin: auto;
+}
+#form-connexion, #form-register {
+    margin-top: 20px;
+    width: 90%;
+}
+#chat-cont {
+    width: 95%;
+    padding: 10px 0;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#message-cont {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#form-message {
+    width: 95%;
+    margin: 20px auto 0;
+}
+#ban {
+    text-align: center;
+    padding: 40px;
+}
+#ban .raison {
+    line-height: 50px;
+    color: lightcoral;
+}
+nav a:hover {
+    color: white;
+}
+.adm-link {
+    background: #2F4F4F;
+}
+#adm-link a:hover, #adm-link a:focus, #btn-deconnexion a:hover, #btn-deconnexion a:focus {
+    color: white;
+}
+.nav a {
+    color: black;
+}
+.panel-primary.panel-heading {
+    background: dimgray;
+}
+#btn-deconnexion {
+    background: #761c19;
+}
+#ban strong{
+    color: #8e8c84;
+}
+#message-cont {
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    color: black;
+    background: white;
+    height: 500px;
+}
+.message-box {
+    background: rgba(140,152,153,0.2);
+    min-height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 1%;
+}
+#label-pseudo {
+    margin: 0 10px;
+}
+#message {
+    font-size: 20px;
+}
+.msg-content{
+    padding-top: 2px;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 75%;
+    display: inline-block;
+}
+#form-message {
+
+}
+#btn-envoyer {
+    background: #38b44a;
+    height: 45px;
+    border-color: transparent;
+    vertical-align: top;
+}
+#btn-envoyer:hover {
+    background: #007053;
+}
+.regle-cat {
+    color: #F8F8FF;
+    font-size: 17px;
+}
+.nb {
+    color:#d0534d;
+    font-weight: bold;
+}
+.panel-body strong  {
+    color: #C09853;
+    font-size: 20px;
+    font-weight: 900;
+}
+footer {
+    background: #464545;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+#mod, #adm, #part {
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 70%;
+}
+#adm, #adm a, #adm h4 {
+    color: #d0534d;
+}
+#mod, #mod a, #mod h4{
+    color: #C09853;
+}
+#part, #part a, #part h4 {
+    color: #007f5e;
+}
+.adm_clic, .mod_clic, .part_clic {
+    display: inline-block;
+    width: 48%;
+    margin: 1%;
+    background: #C4C4DB;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.adm_clic:hover, .mod_clic:hover, .part_clic:hover,
+.adm_clic:focus, .mod_clic:focus, .part_clic:focus {
+    background: #E6E6FA;
+    zoom: 110%;
+}
+#info-user {
+    width: 79%;
+    display: inline-block;
+}
+#avatars {
+    text-align: center;
+    width: 100px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bggris{
+    background: #464545;
+}
+.col2-info {
+    float: right;
+}
+.description {
+    border-radius: 5px;
+    width: 84%;
+    display: inline-block;
+    padding: 15px;
+    background: #C09853;
+    color: white;
+ }
+#modif_desc {
+    width: 16%;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+#fermer-mail, #fermer-av, #fermer-desc {
+    float: right;
+    cursor: pointer;
+    background: red;
+}
+
+.av {
+    cursor: pointer;
+}
+.av:hover, .av-act {
+    border-bottom: 3px inset black;
+    border-radius: 10px;
+}
+
+.img-av {
+    display: inline-block;
+    height: 110px;
+}
+#av-garcon, #av-fille {
+    min-height: 120px;
+    line-height: 120px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#av-garcon {
+    background: rgba(52,152,219,1.0);
+    border-bottom: 1px solid black;
+}
+#av-fille {
+    background: #FFB6C1;
+    display: none;
+}
+#link-pills, #link-pillsf {
+    cursor: pointer;
+}
+#link-pills a:hover {
+    background: #375a7f;
+}
+#link-pillsf a:hover, .activef {
+    background: #c7254e;
+}
+.av-cont {
+    padding-bottom: 20px;
+    border-left: 1px solid black;
+    min-height: 120px;
+    width: 69%;
+    display: inline-block;
+}
+.av-titre {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+    color: black;
+    font-weight: bold;
+}
+#cont-nws{
+    width: 80%;
+    margin: auto;
+    min-height: 300px;
+}
+.contenu-nws {
+    width: 80%;
+    display: inline-block;
+}
+.btn-nws {
+    width: 10%;
+    display: inline-block;
+}
+#news-all, #news-act {
+    margin-top: 20px;
+    min-height: 460px;
+}
+#news-act {
+    background: url("../img/news/bg_nws.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+}
+#news-all {
+    background: #f1f1f1;
+}
+#news-all a {
+    color: black;
+    text-decoration: underline;
+}
+#news-all a:hover {
+    text-decoration: none;
+}
+.actif {
+    font-weight: bold;
+}
+#news-act a {
+    color: #a66908;
+}
+.nws-accroche {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.sign {
+    margin-top: 20px;
+    text-align: right;
+}
+button a {
+    cursor: default;
+}
+.alert-danger a {
+    color: white;text-decoration: underline;
+}
+.alert-danger a:hover {
+    color: black;
+    text-decoration: none;
+}
+/* (200 / 250 %) */
+@media screen and (max-width: 860px){
+    .description{
+        width: 80%;
+    }
+    #modif_desc {
+        width: 20%;
+    }
+    .adm_clic, .mod_clic, .part_clic {
+        width: 100%;
+    }
+    .adm_clic:hover, .mod_clic:hover, .part_clic:hover {
+        zoom: 100%;
+    }
+    #info-user {
+        font-size: 10px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    #avatars {
+        border-top: 1px double white;
+        padding-top: 20px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .titre {
+        font-size: 20px;
+    }
+    table {
+        font-size: 10px;
+    }
+    .img-av {
+        width: 20%;
+    }
+    .av-titre {
+        width: 20%;
+    }
+}

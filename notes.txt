@@ -1,0 +1,3 @@
+filtres mots -> bdd, tchat, admin
+couleurs de fond / ecriture -> bdd; tchat, admin
+timer anti-spam -> js tchat (pas + de 3 messages en 2s)
